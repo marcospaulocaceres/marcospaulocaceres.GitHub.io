@@ -10,3 +10,99 @@
   <p>Affiliate site for Health, Fitness & Wellness products.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breathe and Go</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #000000;
+            color: white;
+        }
+        .hero {
+            background: linear-gradient(to bottom right, #0066ff, #00ccff);
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0 0 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .section h2 {
+            color: #ff6b6b;
+            font-size: 2em;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .product {
+            background-color: #1c1c1c;
+            border: 1px solid #00ffff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px #00ffff33;
+        }
+        .product h3 {
+            margin-top: 0;
+            color: #00ffff;
+        }
+        .product p {
+            color: #cccccc;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00ccff;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .product-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Breathe and Go</h1>
+    <p>Hot Deals in Health, Fitness & Wellness – Act Fast, Stock Runs Out!</p>
+</div>
+
+<div class="section">
+    <h2>🔥 Health Picks</h2>
+    <div class="product-grid">
+        <div class="product">
+            <h3>Supplement X</h3>
+            <p>Power up your immune system with fast-acting daily support.</p>
+            <a href="https://example.com/supplement-x" target="_blank">Buy Now</a>
+        </div>
+        <div class="product">
+            <h3>Detox Tea Pro</h3>
+            <p>Cleanse your body and shed fat with this herbal miracle.</p>
+            <a href="https://example.com/detox-tea-pro" target="_blank">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
